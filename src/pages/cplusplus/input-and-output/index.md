@@ -8,6 +8,8 @@ title: Input and Output
 
 * Output stream objects use 'cout', as shown in the first introduction of C++, to print out statements to the console.
 
+* file stream objects use ifstream for reading a file and ofstream for writing into a file. This requires the `<fstream` header file in the beginning. 
+
 ```cpp
 #include <iostream>
 using namespace std;
